@@ -1,0 +1,18 @@
+ReadMe
+
+python [安装依赖的包](http://www.lfd.uci.edu/~gohlke/pythonlibs/#misc)
+
+基本安装的包
+numpy,scipy,
+matplotlib还依赖dateutil,cycler,six,pyparsing
+
+ * 第一个要求吗，解压把deteutil文件夹放到安装目录lib下，例如：E：/python27/lib
+ * 其余三个，要求解压把对应的文件放到安装目录lib下，如six.py,cycler.py,pyparsing.py
+
+测试代码
+import matplotlib.pyplot as plt
+plt.plot([1,2,3])
+plt.ylabel('some numbers')
+plt.show()
+
+会出现y=x图像
